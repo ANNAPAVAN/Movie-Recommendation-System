@@ -25,7 +25,7 @@ similarity = pickle.load(open("../Files/similarity.pkl", "rb"))
 st.title("Movie Recommander System")
 
 selected_movie_name = st.selectbox(
-    "Type movie related",
+    "Movie Name",
     movies["title"].values
 )
 
